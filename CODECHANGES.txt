@@ -1,0 +1,48 @@
+v1.2
+========================
+- Daily Reports management
+- Jenkins support
+- Browserstack supports
+- BDD testing for both local and browserstack (Specflow)
+- Html report for BDD testing
+- Compared Image for UI testing (Compare both whole page and each web element)
+- Multiple browsers testing at once time
+
+
+V1.1
+========================
+- Implement the html reporter
+- Implement the logger
+- Change the way to manage web object -> using POM instead of .properties
+- Modulize the Core framework and the test project
+- Intergrate with Nunit framework
+- Implement the WebTestSetup class
+- Customize the ErrorHandler class
+- Customize the WebTestMethod and WebTestFactory
+- Implement the DataDriven method from an excel file using Nunit framework
+- Apply test strategy: author, category, description, parallely.
+- Exception handling
+- Screenshots are attached to report
+
+****** Environment *****************
+- .Net framework 4.5
+- Selenium 3
+- Excel library ExcelDataReader.3.1.0
+- ExtentReports.3.0.2
+- NLog.4.4.12
+- NUnit.3.6.0
+- NUnit3TestAdapter.3.7.0
+- Nunit GUI runner 3.2
+
+***** Planning features *****************
+- Reports management
+- Jenkins support
+- BDD testing using RSpec
+- Reporter for BDD testing
+- BrowseStack/Saucelab
+- Mobile testing using Xamarin
+- Compared Image
+
+V1.0
+========================
+Core framework
